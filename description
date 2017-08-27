@@ -1,0 +1,36 @@
+Integers: Displaying Triangles
+In this challenge, you will be writing a Ruby programme that will give us some pretty output by using the integer methods that you have learnt previously. 
+
+triangle_up 
+Write a method called triangle_up that will display a right angle triangle. This method should take in two arguments, num and char. The argument num will determine the height of the triangle, while the argument char will be the character to be displayed. 
+
+For example, calling triangle_up(5, 'o') will give the following display: 
+o 
+oo 
+ooo 
+oooo 
+ooooo 
+
+Calling triangle_up(4, 'x') will give: 
+x 
+xx 
+xxx 
+xxxx 
+Write your code in triangle.rb. 
+
+triangle_down 
+Now write a method called triangle_down that also takes in two arguments, num and char. A triangle should also displayed but with a 180 degrees flip. For example, triangle_down(6, '*') will give: 
+****** 
+***** 
+**** 
+*** 
+** 
+* 
+
+And calling triangle_down(5, '+') will give: 
++++++ 
+++++ 
++++ 
+++ 
++ 
+Write your code in triangle.rb.
